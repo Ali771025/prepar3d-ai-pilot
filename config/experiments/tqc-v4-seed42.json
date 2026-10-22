@@ -1,0 +1,23 @@
+{
+  "experiment_id": "p3d-v4-tqc-seed42",
+  "algorithm": "tqc",
+  "seed": 42,
+  "observation_schema": "observation-v3.0",
+  "action_schema": "residual-action-v2.0",
+  "episode_schema": "episode-v4.1",
+  "telemetry_sources": ["SimConnect", "FSUIPC"],
+  "reject_source_switch_within_episode": true,
+  "dataset_version": "replace-after-data-quality-gate",
+  "scenario_set": "curriculum-v2",
+  "training": {
+    "stages": ["airwork", "pattern", "approach", "full"],
+    "steps_per_stage": 100000,
+    "agent_hz": 5,
+    "frame_stack": 5
+  },
+  "release_requires": {
+    "seeds": [42, 1337, 9001],
+    "monte_carlo_episodes": 200,
+    "zero_transport_failovers_while_armed": true
+  }
+}

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "p3d-ai-pilot"
+version = "4.1.0b1"
+description = "Safe residual reinforcement-learning tooling for Prepar3D v4"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "numpy>=2.0,<3",
+  "pandas>=2.2,<3",
+  "scikit-learn>=1.5,<2"
+]
+
+[project.optional-dependencies]
+training = [
+  "pyarrow>=17,<22",
+  "torch>=2.5,<3",
+  "gymnasium>=1.0,<2",
+  "stable-baselines3>=2.5,<3",
+  "sb3-contrib>=2.5,<3",
+  "d3rlpy>=2.8,<3",
+  "tensorboard>=2.18,<3",
+  "onnx>=1.17,<2",
+  "onnxruntime>=1.20,<2"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["p3d_ai*"]

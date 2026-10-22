@@ -1,0 +1,212 @@
+{
+  "version": 1,
+  "fields": [
+    {
+      "name": "SimTimeSeconds",
+      "property": "SIM TIME",
+      "unit": "seconds"
+    },
+    {
+      "name": "LatitudeDeg",
+      "property": "PLANE LATITUDE",
+      "unit": "degrees"
+    },
+    {
+      "name": "LongitudeDeg",
+      "property": "PLANE LONGITUDE",
+      "unit": "degrees"
+    },
+    {
+      "name": "AltitudeMslFt",
+      "property": "PLANE ALTITUDE",
+      "unit": "feet"
+    },
+    {
+      "name": "AltitudeAglFt",
+      "property": "PLANE ALT ABOVE GROUND",
+      "unit": "feet"
+    },
+    {
+      "name": "IndicatedAirspeedKts",
+      "property": "AIRSPEED INDICATED",
+      "unit": "knots"
+    },
+    {
+      "name": "TrueAirspeedKts",
+      "property": "AIRSPEED TRUE",
+      "unit": "knots"
+    },
+    {
+      "name": "GroundSpeedKts",
+      "property": "GROUND VELOCITY",
+      "unit": "knots"
+    },
+    {
+      "name": "VerticalSpeedFpm",
+      "property": "VERTICAL SPEED",
+      "unit": "feet per minute"
+    },
+    {
+      "name": "PitchDeg",
+      "property": "PLANE PITCH DEGREES",
+      "unit": "degrees"
+    },
+    {
+      "name": "BankDeg",
+      "property": "PLANE BANK DEGREES",
+      "unit": "degrees"
+    },
+    {
+      "name": "HeadingTrueDeg",
+      "property": "PLANE HEADING DEGREES TRUE",
+      "unit": "degrees"
+    },
+    {
+      "name": "AngleOfAttackDeg",
+      "property": "INCIDENCE ALPHA",
+      "unit": "degrees"
+    },
+    {
+      "name": "SideSlipDeg",
+      "property": "INCIDENCE BETA",
+      "unit": "degrees"
+    },
+    {
+      "name": "BodyRatePDegPerSecond",
+      "property": "ROTATION VELOCITY BODY X",
+      "unit": "degrees per second"
+    },
+    {
+      "name": "BodyRateQDegPerSecond",
+      "property": "ROTATION VELOCITY BODY Y",
+      "unit": "degrees per second"
+    },
+    {
+      "name": "BodyRateRDegPerSecond",
+      "property": "ROTATION VELOCITY BODY Z",
+      "unit": "degrees per second"
+    },
+    {
+      "name": "AccelerationXG",
+      "property": "ACCELERATION BODY X",
+      "unit": "GForce"
+    },
+    {
+      "name": "AccelerationYG",
+      "property": "ACCELERATION BODY Y",
+      "unit": "GForce"
+    },
+    {
+      "name": "AccelerationZG",
+      "property": "ACCELERATION BODY Z",
+      "unit": "GForce"
+    },
+    {
+      "name": "WindSpeedKts",
+      "property": "AMBIENT WIND VELOCITY",
+      "unit": "knots"
+    },
+    {
+      "name": "WindDirectionTrueDeg",
+      "property": "AMBIENT WIND DIRECTION",
+      "unit": "degrees"
+    },
+    {
+      "name": "EngineRpm",
+      "property": "GENERAL ENG RPM:1",
+      "unit": "rpm"
+    },
+    {
+      "name": "FuelFraction",
+      "property": "FUEL TOTAL QUANTITY",
+      "unit": "gallons"
+    },
+    {
+      "name": "WeightLb",
+      "property": "TOTAL WEIGHT",
+      "unit": "pounds"
+    },
+    {
+      "name": "MaximumGrossWeightLb",
+      "property": "MAX GROSS WEIGHT",
+      "unit": "pounds"
+    },
+    {
+      "name": "CgPercent",
+      "property": "CG PERCENT",
+      "unit": "percent"
+    },
+    {
+      "name": "YokeX",
+      "property": "YOKE X POSITION",
+      "unit": "position"
+    },
+    {
+      "name": "YokeY",
+      "property": "YOKE Y POSITION",
+      "unit": "position"
+    },
+    {
+      "name": "RudderPedal",
+      "property": "RUDDER PEDAL POSITION",
+      "unit": "position"
+    },
+    {
+      "name": "Throttle01",
+      "property": "GENERAL ENG THROTTLE LEVER POSITION:1",
+      "unit": "percent over 100"
+    },
+    {
+      "name": "Flaps01",
+      "property": "FLAPS HANDLE PERCENT",
+      "unit": "percent over 100"
+    },
+    {
+      "name": "DesignVs0Kts",
+      "property": "DESIGN SPEED VS0",
+      "unit": "knots"
+    },
+    {
+      "name": "DesignVs1Kts",
+      "property": "DESIGN SPEED VS1",
+      "unit": "knots"
+    },
+    {
+      "name": "EstimatedCruiseKts",
+      "property": "DESIGN SPEED VC",
+      "unit": "knots"
+    }
+  ],
+  "flags": [
+    {
+      "name": "OnGround",
+      "property": "SIM ON GROUND",
+      "unit": "bool"
+    },
+    {
+      "name": "ParkingBrakeSet",
+      "property": "BRAKE PARKING POSITION",
+      "unit": "bool"
+    },
+    {
+      "name": "StallWarning",
+      "property": "STALL WARNING",
+      "unit": "bool"
+    },
+    {
+      "name": "OverspeedWarning",
+      "property": "OVERSPEED WARNING",
+      "unit": "bool"
+    },
+    {
+      "name": "SlewActive",
+      "property": "IS SLEW ACTIVE",
+      "unit": "bool"
+    },
+    {
+      "name": "Paused",
+      "property": "SIM PAUSED",
+      "unit": "bool"
+    }
+  ]
+}

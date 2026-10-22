@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><Nullable>disable</Nullable><TreatWarningsAsErrors>true</TreatWarningsAsErrors><EnableNETAnalyzers>false</EnableNETAnalyzers></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../../P3DAIPilot.Bridge/P3DAIPilot.Bridge.csproj" />
+    <Compile Include="../../P3DAIPilot.P3Dv4/AircraftProfileCatalog.cs" Link="Existing/AircraftProfileCatalog.cs" />
+    <Compile Include="../../P3DAIPilot.P3Dv4/ConfigurationLoader.cs" Link="Existing/ConfigurationLoader.cs" />
+    <Compile Include="../../P3DAIPilot.P3Dv4/RlBridgeServer.cs" Link="Existing/RlBridgeServer.cs" />
+    <Compile Include="../../P3DAIPilot.P3Dv4/LocalLlmSupervisor.cs" Link="Existing/LocalLlmSupervisor.cs" />
+    <Compile Include="../../P3DAIPilot.P3Dv4/FlightCsvRecorder.cs" Link="Existing/FlightCsvRecorder.cs" />
+    <Content Include="../../../config/**/*" Link="config/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

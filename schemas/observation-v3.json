@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.p3d-ai/schemas/observation-v3.json",
+  "title": "P3D AI Pilot Observation v3",
+  "type": "object",
+  "required": ["sequence", "reset_id", "phase", "ias_kts", "alt_agl_ft", "pitch_deg", "bank_deg", "heading_deg", "baseline", "applied_residual", "safety_scale"],
+  "properties": {
+    "sequence": {"type": "integer", "minimum": 0},
+    "reset_id": {"type": "integer", "minimum": 0},
+    "phase": {"type": "string"},
+    "ias_kts": {"type": "number"},
+    "tas_kts": {"type": "number"},
+    "alt_agl_ft": {"type": "number"},
+    "pitch_deg": {"type": "number"},
+    "bank_deg": {"type": "number"},
+    "heading_deg": {"type": "number"},
+    "baseline": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "number"}},
+    "applied_residual": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "number"}},
+    "safety_scale": {"type": "number", "minimum": 0, "maximum": 1},
+    "uncertainty": {"type": "number", "minimum": 0}
+  },
+  "additionalProperties": true
+}
+

@@ -1,0 +1,24 @@
+{
+  "schema": "reward-cost-v3",
+  "objective": {
+    "heading": 1.2,
+    "speed": 1.2,
+    "altitude": 0.8,
+    "vertical_speed": 0.6,
+    "final_cross_track": 1.8,
+    "control_effort": 0.08,
+    "control_smoothness": 0.15,
+    "success": 500.0
+  },
+  "initial_lagrange_multipliers": {
+    "stall": 150.0,
+    "overspeed": 100.0,
+    "attitude": 80.0,
+    "unstable_approach": 40.0,
+    "runway_excursion": 200.0,
+    "hard_landing": 120.0,
+    "shield_intervention": 0.5,
+    "invalid_runtime": 250.0
+  }
+}
+

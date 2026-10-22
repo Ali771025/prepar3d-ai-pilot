@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3DAIPilot.Core", "src\P3DAIPilot.Core\P3DAIPilot.Core.csproj", "{11B8D2AA-A3C9-4550-9EAC-8EB2D1A00101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3DAIPilot.P3Dv4", "src\P3DAIPilot.P3Dv4\P3DAIPilot.P3Dv4.csproj", "{11B8D2AA-A3C9-4550-9EAC-8EB2D1A00102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3DAIPilot.Core.Tests", "src\P3DAIPilot.Core.Tests\P3DAIPilot.Core.Tests.csproj", "{11B8D2AA-A3C9-4550-9EAC-8EB2D1A00103}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11B8D2AA-A3C9-4550-9EAC-8EB2D1A00101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B8D2AA-A3C9-4550-9EAC-8EB2D1A00101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B8D2AA-A3C9-4550-9EAC-8EB2D1A00101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B8D2AA-A3C9-4550-9EAC-8EB2D1A00101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B8D2AA-A3C9-4550-9EAC-8EB2D1A00102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B8D2AA-A3C9-4550-9EAC-8EB2D1A00102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B8D2AA-A3C9-4550-9EAC-8EB2D1A00102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B8D2AA-A3C9-4550-9EAC-8EB2D1A00102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B8D2AA-A3C9-4550-9EAC-8EB2D1A00103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B8D2AA-A3C9-4550-9EAC-8EB2D1A00103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B8D2AA-A3C9-4550-9EAC-8EB2D1A00103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B8D2AA-A3C9-4550-9EAC-8EB2D1A00103}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

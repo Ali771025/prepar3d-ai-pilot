@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AddOnXml" version="3,3" id="add-on">
+  <AddOn.Name>P3D AI Pilot PDK Bridge</AddOn.Name>
+  <AddOn.Description>Native x64 telemetry and bounded explicit flight-control authority</AddOn.Description>
+  <AddOn.Component><Category>DLL</Category><Path>P3D.AIPilot.PdkBridge.dll</Path><DLLType>PDK</DLLType></AddOn.Component>
+</SimBase.Document>
