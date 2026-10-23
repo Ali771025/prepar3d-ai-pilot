@@ -1,5 +1,10 @@
 # Prepar3D AI Pilot
 
+<!-- project-contact:start -->
+**Work with Yosof Omrani:** [Email a project inquiry](mailto:aliomrani916@gmail.com) · **aliomrani916@gmail.com** · [Services & contact](https://ali771025.github.io/software-portfolio/en/contact/) · [Portfolio walkthrough](https://ali771025.github.io/software-portfolio/en/#projects)
+<!-- project-contact:end -->
+
+
 ![Prepar3D AI Pilot architecture overview](docs/assets/overview.svg)
 
 **A simulator research platform combining deterministic control, a bounded PDK bridge and ML tooling.**
